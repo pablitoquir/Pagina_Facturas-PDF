@@ -449,7 +449,7 @@ header .container {
 .floating-whatsapp {
     position: fixed;
     bottom: 40px;
-    right: 40px;
+    left: 40px;
     background-color: var(--secondary);
     color: var(--white);
     width: 68px;
@@ -520,5 +520,5 @@ footer {
     .tech-card, .benefit-card { padding: 2rem; }
     .cta-final h2 { font-size: 2.2rem; }
     .footer-links { flex-direction: column; gap: 1.2rem; }
-    .floating-whatsapp { bottom: 20px; right: 20px; width: 60px; height: 60px; }
+    .floating-whatsapp { bottom: 20px; left: 20px; width: 60px; height: 60px; }
 }
